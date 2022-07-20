@@ -1,0 +1,10 @@
+torch
+scipy
+numpy
+torchsummaryX
+tqdm
+matplotlib
+gym
+tensorboard
+tensorboardX
+Cython
