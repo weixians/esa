@@ -73,7 +73,7 @@ def process_data(data: Dict, res: Dict, policy_name):
 
 
 if __name__ == "__main__":
-    seed = 0
+    seed = 42
     policy_names = ["lstm_rl", "sarl", "esa"]
     folder = "test_result"
 
