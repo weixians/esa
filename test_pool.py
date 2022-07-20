@@ -17,7 +17,7 @@ def run_test(choice):
     dynamic_human_nums = [5, 10, 15, 20]
     static_human_nums = [1, 2, 3, 4, 5]
 
-    output_dir = os.path.join(global_util.get_project_root(), "../output/0720_42")
+    output_dir = os.path.join(global_util.get_project_root(), "../output")
     model_subdir = "epi_10000"
 
     dynamic_results = {}

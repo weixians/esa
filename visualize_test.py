@@ -8,7 +8,7 @@ test_time_limit = 25
 
 if __name__ == "__main__":
     policy_names = ["sarl", "lstm_rl", "esa"]
-    output_dir = os.path.join(global_util.get_project_root(), "../output/final")
+    output_dir = os.path.join(global_util.get_project_root(), "../output")
     model_subdir = "epi_10000"
 
     dynamic_human_nums = [5, 10, 15, 20]
